@@ -18,7 +18,9 @@
     }
   }
 }
-
+//////////////////////////////
+// Nav bar
+//////////////////////////////
 .navBar {
   display: flex;
   align-items: center;
@@ -29,7 +31,15 @@
     display: flex;
     gap: 40px;
     font-size: 0.9rem;
+
+    a {
+      display: flex;
+    }
   }
+}
+
+.downIcon {
+  font-size: 1.25rem;
 }
 
 .logo {
@@ -59,15 +69,18 @@
   text-align: end;
 }
 
+//////////////////////////////
+//  Hero section: h1 title and p subtitle
+//////////////////////////////
 .heroSection {
   margin: 0 108px;
-  padding: 40px;
+  padding: 40px 0 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: start;
-  height: 50vh;
-  border-bottom: 1px solid #999;
+  // height: 50vh;
+  border-bottom: 0.5px solid var(--grey);
 
   h1 {
     font-family: 'Playfair Display', sans-serif;
@@ -88,7 +101,188 @@
   }
 }
 
+//////////////////////////////
+// Solution section
+//////////////////////////////
 .solutionSection {
   display: flex;
-  padding: 0 108px;
+  flex-direction: column;
+  gap: 40px;
+  padding: 64px 108px;
+}
+
+.solutionTitle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h2 {
+    font-weight: 300;
+  }
+
+  p {
+    font-size: 0.85rem;
+  }
+
+  a {
+    background-color: var(--coral);
+    color: #fff;
+    padding: 8px 8px;
+    border-radius: 30px;
+    font-family: var(--title-font);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    font-size: 1.25rem;
+    padding-left: 20px;
+
+    &:hover {
+      background-color: var(--main-text-color);
+    }
+  }
+
+  span {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.arrowRight {
+  color: var(--coral);
+
+  &:hover {
+    color: var(--main-text-color);
+  }
+}
+
+.solutionOptions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  label {
+    background-color: #ffffff52;
+    height: 200px;
+    width: 230px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    gap: 16px;
+    position: relative;
+
+    &:hover,
+    &:active {
+      background-color: #fff;
+      cursor: pointer;
+      box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  input {
+    position: absolute;
+    top: 10%;
+    right: 8%;
+    height: 15px;
+    width: 15px;
+    color: transparent;
+    outline: none;
+  }
+
+  img {
+    height: 120px;
+  }
+}
+
+// companies section
+.companiesSection {
+  margin-top: 100px;
+  height: 225px;
+  border-radius: 12px;
+  background-color: var(--grey);
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  h2 {
+    width: 400px;
+    margin-bottom: 32px;
+    font-weight: 400;
+  }
+
+  div {
+    display: flex;
+    gap: 20px;
+
+    img {
+      height: 30px;
+    }
+  }
+}
+
+.border {
+  position: relative;
+}
+
+.borderImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+// ////////////////////
+// Highlight section
+// ///////////////////
+.highlightSection {
+  background-color: var(--snow);
+  display: grid;
+  grid-template-columns: 0.75fr 1.25fr;
+  align-items: center;
+  justify-content: space-between;
+  padding: 168px 108px 64px;
+  gap: 98px;
+
+  img {
+    height: 350px;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 32px;
+  }
+
+  h2 {
+    font-family: var(--title-font);
+    font-size: 3.5rem;
+    padding-right: 98px;
+    font-weight: 450;
+  }
+
+  p {
+    font-size: 1.15rem;
+    line-height: 1.75;
+    padding-right: 40px;
+  }
+}
+
+// ////////////////
+// Services Section
+// ///////////////
+.servicesSection {
+  height: 100vh;
+  background-color: var(--snow);
 }
