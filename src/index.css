@@ -6,14 +6,28 @@
   box-sizing: border-box;
 }
 
+:root {
+  --main-bg-color: #f7e1d3;
+  --main-text-color: #2b2c30;
+  --cyan: #00bcd4;
+  --grey: #bfc1b9;
+  --coral: #ee4b4a;
+  --snow: #fffcfa;
+
+  --title-font: 'Playfair Display', sans-serif;
+  --body-font: 'Poppins', sans-serif;
+}
+
 body {
   width: 100vw;
   font-family: 'Poppins', sans-serif;
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
 }
 
 a {
   text-decoration: none;
-  color: #2b2c30;
+  color: var(--main-text-color);
 }
 
 li {
