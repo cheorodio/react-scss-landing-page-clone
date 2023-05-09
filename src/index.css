@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Poppins:wght@300;400&family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Poppins:wght@300;400;500;600;700;800&family=Tenor+Sans&display=swap');
 
 * {
   margin: 0;
@@ -9,6 +9,7 @@
 :root {
   --main-bg-color: #f7e1d3;
   --main-text-color: #2b2c30;
+  --secondary-text-color: #58595c;
   --cyan: #00bcd4;
   --grey: #bfc1b9;
   --coral: #ee4b4a;
