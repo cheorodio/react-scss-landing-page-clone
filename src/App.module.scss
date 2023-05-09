@@ -1,0 +1,94 @@
+.promoBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: #163828;
+  color: #ceb6a8;
+  padding: 18px 0;
+  font-family: 'Tenor Sans', sans-serif;
+  font-size: 0.75rem;
+
+  a {
+    color: #ceb6a8;
+    text-decoration: underline;
+
+    &:hover {
+      color: #eecf84;
+    }
+  }
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 108px;
+
+  li {
+    display: flex;
+    gap: 40px;
+    font-size: 0.9rem;
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  width: 25%;
+}
+
+.ctaButton {
+  padding: 16px 28px;
+  border-radius: 30px;
+  background-color: #163828;
+  color: #fff;
+  font-size: 0.9rem;
+
+  &:hover {
+    background-color: transparent;
+    border: 1px solid #163828;
+    color: #163828;
+  }
+}
+
+.rightSection {
+  width: 25%;
+  text-align: end;
+}
+
+.heroSection {
+  margin: 0 108px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  height: 50vh;
+  border-bottom: 1px solid #999;
+
+  h1 {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 6.5rem;
+    margin-bottom: 24px;
+    font-weight: 500;
+  }
+
+  span {
+    font-style: italic;
+  }
+
+  p {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 8px;
+    letter-spacing: 0.5px;
+  }
+}
+
+.solutionSection {
+  display: flex;
+  padding: 0 108px;
+}
