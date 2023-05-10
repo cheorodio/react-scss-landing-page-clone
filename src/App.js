@@ -461,6 +461,96 @@ export default function App() {
             </a>
           </div>
         </section>
+        {/* ===================================================== */}
+        <section className={styles.storySection}>
+          <div className={styles.storyTextBox}>
+            <h2 className={styles.h2Title}>
+              Our people are <span>people</span> people
+            </h2>
+            <h6>
+              For nearly a decade, we have been scaling companies while
+              fostering the growth, wellbeing, and career development of our
+              people.
+            </h6>
+            <p>
+              We are proud to comprise such a dynamic group of people spanning
+              time zones, languages, and skill sets. And you'll soon discover
+              that with us, work isn't transactional—it is our passion.
+            </p>
+            <a href="/#">Read our story</a>
+          </div>
+
+          <div className={styles.storyImageBox}>
+            <div className={styles.profileTile}>
+              <img
+                src="https://assets.website-files.com/64149f79022d0c5fc8ce46e8/64149f79022d0c1677ce47c0_Tile__Man-p-500.png"
+                alt="profile shot of a person"
+              />
+            </div>
+            <div className={styles.illustrationTile}>
+              <img
+                src="https://assets.website-files.com/64149f79022d0c5fc8ce46e8/64149f79022d0c32c6ce47ba_Tile%20Illustrations__Pie%20Chart.webp"
+                alt="pie chart illustration"
+              />
+            </div>
+
+            <div className={styles.relativeStyle1}>
+              <div className={`${styles.profileTile} ${styles.profileImage}`}>
+                <img
+                  src="https://assets.website-files.com/64149f79022d0c5fc8ce46e8/64149f79022d0cf161ce47c1_Tile__Woman-p-500.png"
+                  alt="profile shot of a person"
+                />
+              </div>
+            </div>
+            <div className={styles.illustrationTile}>
+              <img
+                src="https://assets.website-files.com/64149f79022d0c5fc8ce46e8/64149f79022d0cbdf4ce47b9_Tile%2520Illustrations__Laptop-p-500.png"
+                alt="laptop illustration"
+              />
+            </div>
+            <div className={styles.relativeStyle2}>
+              <div className={`${styles.profileTile} ${styles.profileImage}`}>
+                <img
+                  src="https://assets.website-files.com/64149f79022d0c5fc8ce46e8/64149f79022d0c141ace47c2_Tile__Man%25202-p-500.png"
+                  alt="profile shot of a person"
+                />
+              </div>
+            </div>
+            <div className={styles.illustrationTile}>
+              <img
+                src="https://assets.website-files.com/64149f79022d0c5fc8ce46e8/64149f79022d0cb7f6ce47b8_Tile%20Illustrations__Bar%20Chart.webp"
+                alt="graph illustration"
+              />
+            </div>
+          </div>
+        </section>
+        <section className={styles.yourCareerSection}>
+          <div className={styles.careerImageBox}>
+            <img
+              className={styles.careerImage}
+              src="https://assets.website-files.com/64149f79022d0c5fc8ce46e8/64149f79022d0c7fc2ce4791_Stock%2520Image__Conference%2520Room-p-1080.webp"
+              alt="a person taking in a meeting"
+            />
+            <div className={styles.careerIllustration}>
+              <img
+                src="https://assets.website-files.com/64149f79022d0c5fc8ce46e8/64149f79022d0c34dace47c3_Tile%2520Illustrations__Document%25202-p-500.png"
+                alt="notes illustration"
+              />
+            </div>
+          </div>
+          <div className={styles.careerInfoBox}>
+            <h2 className={styles.h2Title}>
+              A better way to grow… your career
+            </h2>
+            <h6>Our passion for growth is fueled by our culture.</h6>
+            <p>
+              Want to join a global team that prioritizes your progress,
+              celebrates your wins, and gives you the opportunity to work with
+              the most interesting clients? Check out our openings today.
+            </p>
+            <a href="/#">View open roles</a>
+          </div>
+        </section>
       </main>
     </>
   );

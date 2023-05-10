@@ -56,6 +56,7 @@
   background-color: #163828;
   color: #fff;
   font-size: 0.9rem;
+  // position: fixed;
 
   &:hover {
     background-color: transparent;
@@ -373,7 +374,6 @@
 // testimonials section
 // /////////////////////
 .testimonialsSection {
-  // height: 100vh;
   padding: 98px 156px 0px;
   background-color: var(--snow);
   padding-bottom: 200px;
@@ -515,7 +515,7 @@
 // /////////////////
 
 .superpowerSection {
-  padding: 98px 108px;
+  padding: 136px 108px;
   background-color: var(--grey);
   display: flex;
   align-items: start;
@@ -596,4 +596,164 @@
   font-size: 0.8rem;
   padding: 16px 0px;
   border-radius: 30px;
+}
+
+// ///////////////
+// Story Section
+// ////////////////
+.storySection {
+  padding: 212px 108px;
+  height: 100vh;
+  background-color: var(--snow);
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 64px;
+}
+
+.storyTextBox {
+  width: 50%;
+  padding: 0px 44px 0px 0px;
+
+  span {
+    font-style: italic;
+  }
+
+  h6 {
+    font-size: 1.15rem;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 40px;
+  }
+
+  a {
+    padding: 14px 24px;
+    background-color: #163828;
+    border-radius: 30px;
+    color: var(--snow);
+  }
+}
+
+.storyImageBox {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  padding-left: 32px;
+
+  img {
+    height: 175px;
+  }
+}
+
+.profileTile {
+  height: 175px;
+  width: 175px;
+  overflow: hidden;
+  background-color: #bfc1b9;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // position: relative;
+}
+
+.illustrationTile {
+  height: 175px;
+  width: 175px;
+  overflow: hidden;
+  background-color: #f7e1d2;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.relativeStyle1 {
+  position: relative;
+  .profileImage {
+    position: absolute;
+    top: -15%;
+    left: -15%;
+  }
+}
+
+.relativeStyle2 {
+  position: relative;
+
+  .profileImage {
+    position: absolute;
+    top: 15%;
+    left: -15%;
+  }
+}
+
+// /////////
+// Career Section
+// /////////
+
+.yourCareerSection {
+  background-color: var(--snow);
+  display: flex;
+  padding: 0px 108px 200px;
+  gap: 64px;
+}
+
+.careerImageBox {
+  width: 50%;
+  position: relative;
+}
+
+.careerImage {
+  width: 558px;
+  border-radius: 12px;
+}
+.careerIllustration {
+  position: absolute;
+  top: 60%;
+  left: 8%;
+  box-shadow: -11px 11px 30px rgba(0, 0, 0, 0.04),
+    -4px 4px 12px rgba(0, 0, 0, 0.08), -2px 2px 6px rgba(0, 0, 0, 0.14),
+    -1px 1px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  width: 173px;
+  height: 173px;
+  background-color: var(--main-bg-color);
+
+  img {
+    height: 170px;
+    width: 170px;
+  }
+}
+
+.careerInfoBox {
+  width: 50%;
+  padding-left: 64px;
+
+  h6 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 20px 0px;
+  }
+  p {
+    font-size: 1.1rem;
+    margin-bottom: 64px;
+    line-height: 1.75;
+  }
+
+  a {
+    padding: 14px 24px;
+    background-color: #163828;
+    border-radius: 30px;
+    color: var(--snow);
+  }
 }
