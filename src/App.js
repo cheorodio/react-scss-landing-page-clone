@@ -286,6 +286,7 @@ export default function App() {
         <section className={styles.testimonialsSection}>
           <div />
         </section>
+        {/* ===================================================== */}
 
         <div className={styles.borderGrey}>
           <img
@@ -551,7 +552,35 @@ export default function App() {
             <a href="/#">View open roles</a>
           </div>
         </section>
+        <div className={styles.borderImage3}>
+          <img
+            src="https://assets.website-files.com/64149f79022d0c5fc8ce46e8/64149f79022d0c211cce4793_Section%20Curve%2003.svg"
+            alt=""
+          />
+        </div>
+        <section className={styles.ctaSection}>
+          <div className={styles.ctaTextBox}>
+            <h2 className={styles.h2Title}>Start building your dream team</h2>
+            <p>
+              Design a custom outsourcing solution that enables you to enjoy
+              ease and ultimate peace of mind. We've got you.
+            </p>
+            <a href="/#">
+              Get Started
+              <span>
+                <BiRightArrowAlt className={styles.arrowRight} />
+              </span>
+            </a>
+          </div>
+          <div className={styles.ctaImageBox}>
+            <img
+              src="https://assets.website-files.com/64149f79022d0c5fc8ce46e8/64149f79022d0cc4e1ce4794_Character%2520Illustration__Footer-CTA-p-800.webp"
+              alt="illustration of people"
+            />
+          </div>
+        </section>
       </main>
+      <footer></footer>
     </>
   );
 }

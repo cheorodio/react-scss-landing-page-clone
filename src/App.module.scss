@@ -701,7 +701,7 @@
 .yourCareerSection {
   background-color: var(--snow);
   display: flex;
-  padding: 0px 108px 200px;
+  padding: 0px 108px 250px;
   gap: 64px;
 }
 
@@ -755,5 +755,73 @@
     background-color: #163828;
     border-radius: 30px;
     color: var(--snow);
+  }
+}
+
+.borderImage3 {
+  position: relative;
+  img {
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    width: 100%;
+  }
+}
+
+.ctaSection {
+  margin: 0;
+  background-color: var(--main-bg-color);
+  height: 68vh;
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  padding: 64px 108px;
+}
+
+.ctaTextBox {
+  width: 50%;
+  p {
+    font-size: 1.4rem;
+    font-weight: 300;
+    padding-right: 64px;
+    line-height: 1.75;
+    margin-bottom: 40px;
+  }
+  a {
+    background-color: var(--coral);
+    color: #fff;
+    padding: 8px 8px;
+    border-radius: 30px;
+    font-family: var(--title-font);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.25rem;
+    padding-left: 20px;
+    width: 200px;
+
+    &:hover {
+      background-color: var(--main-text-color);
+    }
+  }
+
+  span {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.ctaImageBox {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 550px;
   }
 }
