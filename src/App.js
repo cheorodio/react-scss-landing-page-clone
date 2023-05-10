@@ -1,5 +1,5 @@
 import './index.css';
-import { BiChevronDown, BiRightArrowAlt } from 'react-icons/bi';
+import { BiChevronDown, BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi';
 import styles from './App.module.scss';
 
 export default function App() {
@@ -284,7 +284,42 @@ export default function App() {
         </section>
         {/* ===================================================== */}
         <section className={styles.testimonialsSection}>
-          <div />
+          <div className={styles.testimonialsTextBox}>
+            <div>
+              <img
+                src="https://assets.website-files.com/64149f79022d0c5fc8ce46e8/64149f79022d0c04dece4787_Icon__Curly%20quotes.svg"
+                alt="quote"
+              />
+              <span>
+                We hate to brag, but are flattered when our clients do it for
+                us.
+              </span>
+            </div>
+            <p>
+              "SupportNinja is really responsive and flexible based on our
+              needs. But what we're really, really happy about is the Ninjas and
+              their commitment to the brand. They're like an extension of our
+              team!"
+            </p>
+            <h6>Sudip Dasgupta</h6>
+            <span>Head of Customer Experiences, Product Madness</span>
+            <div className={styles.line} />
+          </div>
+          <div className={styles.circles}>
+            <div className={styles.firstCircle} />
+            <div />
+            <div />
+            <div />
+          </div>
+
+          <div className={styles.testimonialsButtons}>
+            <a href="/#" className={styles.buttonLeft}>
+              <BiLeftArrowAlt />
+            </a>
+            <a href="/#" className={styles.buttonRight}>
+              <BiRightArrowAlt />
+            </a>
+          </div>
         </section>
         {/* ===================================================== */}
 
@@ -671,13 +706,21 @@ export default function App() {
         </div>
         <div className={styles.copyright}>
           <div>
-            <p>2023 © SupportNinja, A Registered Trademark Of Ninja Partners Inc</p>
+            <p>
+              2023 © SupportNinja, A Registered Trademark Of Ninja Partners Inc
+            </p>
           </div>
           <div>
             <ul>
-              <li><a href="/#">Privacy Policy</a></li>
-              <li><a href="/#">Security Policy</a></li>
-              <li><a href="/#">Terms of Use</a></li>
+              <li>
+                <a href="/#">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="/#">Security Policy</a>
+              </li>
+              <li>
+                <a href="/#">Terms of Use</a>
+              </li>
             </ul>
           </div>
         </div>
