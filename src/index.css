@@ -35,3 +35,8 @@ a {
 li {
   list-style: none;
 }
+
+footer {
+  background-color: var(--grey);
+  height: 75vh;
+}
