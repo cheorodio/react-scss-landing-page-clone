@@ -1,52 +1,18 @@
 import './index.css';
-import { BiChevronDown, BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi';
+import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi';
 import styles from './App.module.scss';
+import Footer from './Components/Footer';
+import NavBar from './Components/NavBar';
 
 export default function App() {
   return (
     <>
       <header>
-        <div className={styles.promoBar}>
-          <span>Bolton Remote is now a part of SupportNinja!</span>
-          <a href="/#">Read about the acquisition.</a>
-        </div>
-
-        <nav className={styles.navBar}>
-          <a href="/#" className={styles.logo}>
-            <img
-              src="https://assets.website-files.com/64149f79022d0c5fc8ce46e8/64149f79022d0c9187ce4859_Logomark.svg"
-              alt="logo"
-            />
-            <img
-              src="https://assets.website-files.com/64149f79022d0c5fc8ce46e8/64149f79022d0ceba7ce4866_Wordmark.svg"
-              alt="company name"
-            />
-          </a>
-          <ul>
-            <li>
-              <a href="/#">
-                Solutions
-                <BiChevronDown className={styles.downIcon} />
-              </a>
-              <a href="/#">How it works</a>
-              <a href="/#">
-                About <BiChevronDown className={styles.downIcon} />
-              </a>
-              <a href="/#">Resources</a>
-            </li>
-          </ul>
-          <div className={styles.rightSection}>
-            <a className={styles.ctaButton} href="/#">
-              Get Started
-            </a>
-          </div>
-        </nav>
+        <NavBar />
       </header>
 
-      {/* ===================================================== */}
-      {/* MAIN */}
-      {/* ===================================================== */}
       <main>
+        {/* ==================== HERO SECTION ==================== */}
         <hero className={styles.heroSection}>
           <h1>
             A better way to <span>grow</span>
@@ -54,6 +20,8 @@ export default function App() {
           <p>Seamlessly scale your team </p>
           <p>and flourish with global outsourced talent.</p>
         </hero>
+
+        {/* =============== OUTSOURCING SOLUTION SECTION =============== */}
         <section className={styles.solutionSection}>
           <div className={styles.solutionTitle}>
             <div>
@@ -76,7 +44,6 @@ export default function App() {
               />
               <p>Customer Success</p>
             </label>
-
             <label>
               <input type="checkbox" />
               <img
@@ -85,7 +52,6 @@ export default function App() {
               />
               <p>Technical Support</p>
             </label>
-
             <label>
               <input type="checkbox" />
               <img
@@ -94,7 +60,6 @@ export default function App() {
               />
               <p>Content Moderation</p>
             </label>
-
             <label>
               <input type="checkbox" />
               <img
@@ -103,7 +68,6 @@ export default function App() {
               />
               <p>Data Processing</p>
             </label>
-
             <label>
               <input type="checkbox" />
               <img
@@ -113,6 +77,7 @@ export default function App() {
               <p>Professional Services</p>
             </label>
           </div>
+          {/* =============== COMPANY LOGOS SECTION =============== */}
           <div className={styles.companiesSection}>
             <h2>Championing from behind the scenes of 200+ companies.</h2>
             <div>
@@ -143,6 +108,7 @@ export default function App() {
             </div>
           </div>
         </section>
+        {/* =============== SQUIGGLY BORDER SECTION =============== */}
         <div className={styles.border}>
           <img
             className={styles.borderImage}
@@ -150,7 +116,7 @@ export default function App() {
             alt="border"
           />
         </div>
-
+        {/* =============== HIGHLIGHTS SECTION =============== */}
         <section className={styles.highlightSection}>
           <div>
             <img
@@ -172,7 +138,7 @@ export default function App() {
             </p>
           </div>
         </section>
-
+        {/* =============== SERVICES SECTION =============== */}
         <section className={styles.servicesSection}>
           <div className={styles.servicesTitle}>
             <div>
@@ -187,7 +153,6 @@ export default function App() {
               alt="illustration of a vase with leaves"
             />
           </div>
-          {/* ===================================================== */}
           <div className={styles.servicesProducts}>
             <a href="/#">
               <img
@@ -282,7 +247,7 @@ export default function App() {
             </a>
           </div>
         </section>
-        {/* ===================================================== */}
+        {/* =============== TESTIMONIALS SECTION =============== */}
         <section className={styles.testimonialsSection}>
           <div className={styles.testimonialsTextBox}>
             <div>
@@ -321,8 +286,7 @@ export default function App() {
             </a>
           </div>
         </section>
-        {/* ===================================================== */}
-
+        {/* =============== SQUIGGLY BORDER SECTION =============== */}
         <div className={styles.borderGrey}>
           <img
             className={styles.borderGreyImage}
@@ -331,14 +295,13 @@ export default function App() {
           />
         </div>
 
-        {/* ===================================================== */}
+        {/* =============== SPANNING SECTION =============== */}
         <section className={styles.spanningSection}>
           <img
             className={styles.spanningBgImg}
             src="https://assets.website-files.com/64149f79022d0c5fc8ce46e8/64149f79022d0c0fc8ce4798_Globe%20Lines.svg"
             alt="circles"
           />
-
           <div className={styles.spanningImages}>
             <div className={styles.spanningImage1}>
               <img
@@ -381,7 +344,6 @@ export default function App() {
               />
             </div>
           </div>
-
           <div className={styles.spanningInfo}>
             <h2>Spanning a wider world of talent</h2>
             <p>
@@ -400,7 +362,6 @@ export default function App() {
               Get Started
             </a>
           </div>
-
           <div className={styles.spanningImages}>
             <div className={styles.spanningImage6}>
               <img
@@ -444,7 +405,7 @@ export default function App() {
             </div>
           </div>
         </section>
-        {/* ===================================================== */}
+        {/* =============== 5 STEPS SECTION =============== */}
         <section className={styles.superpowerSection}>
           <div className={styles.superpowerTitle}>
             <h2 className={styles.h2Title}>Your talent-finding superpower</h2>
@@ -453,7 +414,6 @@ export default function App() {
               and needs.
             </p>
           </div>
-
           <div className={styles.superpowerSteps}>
             <h3>Get set up in 5 easy steps</h3>
             <div className={styles.superpowerLinks}>
@@ -497,7 +457,7 @@ export default function App() {
             </a>
           </div>
         </section>
-        {/* ===================================================== */}
+        {/* =============== OUR STORY SECTION =============== */}
         <section className={styles.storySection}>
           <div className={styles.storyTextBox}>
             <h2 className={styles.h2Title}>
@@ -529,7 +489,6 @@ export default function App() {
                 alt="pie chart illustration"
               />
             </div>
-
             <div className={styles.relativeStyle1}>
               <div className={`${styles.profileTile} ${styles.profileImage}`}>
                 <img
@@ -560,6 +519,7 @@ export default function App() {
             </div>
           </div>
         </section>
+        {/* =============== YOUR CAREER SECTION =============== */}
         <section className={styles.yourCareerSection}>
           <div className={styles.careerImageBox}>
             <img
@@ -587,12 +547,14 @@ export default function App() {
             <a href="/#">View open roles</a>
           </div>
         </section>
+        {/* =============== SQUIGGLY BORDER SECTION =============== */}
         <div className={styles.borderImage3}>
           <img
             src="https://assets.website-files.com/64149f79022d0c5fc8ce46e8/64149f79022d0c211cce4793_Section%20Curve%2003.svg"
             alt=""
           />
         </div>
+        {/* ================== CTA SECTION ================== */}
         <section className={styles.ctaSection}>
           <div className={styles.ctaTextBox}>
             <h2 className={styles.h2Title}>Start building your dream team</h2>
@@ -616,114 +578,7 @@ export default function App() {
         </section>
       </main>
       <footer className={styles.footer}>
-        <div className={styles.footerLogo}>
-          <img
-            src="https://assets.website-files.com/64149f79022d0c5fc8ce46e8/64149f79022d0cd45cce4719_Support%20Ninja%20%7C%20Full%20Logo.svg"
-            alt="company logo"
-          />
-        </div>
-
-        <div className={styles.footerLinks}>
-          <div>
-            <h3>Solutions</h3>
-            <ul>
-              <li>
-                <a href="/#">Customer Service</a>
-              </li>
-              <li>
-                <a href="/#">Technical Support</a>
-              </li>
-              <li>
-                <a href="/#">Content Moderation</a>
-              </li>
-              <li>
-                <a href="/#">Data Processing</a>
-              </li>
-              <li>
-                <a href="/#">Professional Services</a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h3>Company</h3>
-            <ul>
-              <li>
-                <a href="/#">How it Works</a>
-              </li>
-              <li>
-                <a href="/#">About</a>
-              </li>
-              <li>
-                <a href="/#">Careers</a>
-              </li>
-              <li>
-                <a href="/#">Contact</a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h3>Resources</h3>
-            <ul>
-              <li>
-                <a href="/#">Resources</a>
-              </li>
-              <li>
-                <a href="/#">FAQs</a>
-              </li>
-              <li>
-                <a href="/#">Glossary</a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h3>Follow</h3>
-            <ul>
-              <li>
-                <a href="/#">Facebooks</a>
-              </li>
-              <li>
-                <a href="/#">Twitter</a>
-              </li>
-              <li>
-                <a href="/#">LinkedIn</a>
-              </li>
-              <li>
-                <a href="/#">Instagram</a>
-              </li>
-              <li>
-                <a href="/#">Glassdoor</a>
-              </li>
-            </ul>
-          </div>
-          <div className={styles.footerBtn}>
-            <a href="/#">
-              Get Started
-              <span>
-                <BiRightArrowAlt className={styles.arrowRight} />
-              </span>
-            </a>
-          </div>
-        </div>
-        <div className={styles.copyright}>
-          <div>
-            <p>
-              2023 © SupportNinja, A Registered Trademark Of Ninja Partners Inc
-            </p>
-          </div>
-          <div>
-            <ul>
-              <li>
-                <a href="/#">Privacy Policy</a>
-              </li>
-              <li>
-                <a href="/#">Security Policy</a>
-              </li>
-              <li>
-                <a href="/#">Terms of Use</a>
-              </li>
-            </ul>
-          </div>
-        </div>
+        <Footer />
       </footer>
     </>
   );
