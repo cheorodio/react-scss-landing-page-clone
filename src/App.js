@@ -14,23 +14,25 @@ export default function App() {
       <main>
         {/* ==================== HERO SECTION ==================== */}
         <hero className={styles.heroSection}>
-          <h1>
-            A better way to <span>grow</span>
-          </h1>
-          <p>Seamlessly scale your team </p>
-          <p>and flourish with global outsourced talent.</p>
+          <div>
+            <h1>
+              A better way to <span>grow</span>
+            </h1>
+            <p>Seamlessly scale your team </p>
+            <p>and flourish with global outsourced talent.</p>
+          </div>
         </hero>
 
         {/* =============== OUTSOURCING SOLUTION SECTION =============== */}
         <section className={styles.solutionSection}>
-          <div className={styles.solutionTitle}>
+          <div className={styles.solutionTitleBox}>
             <div>
-              <h2>Which outsourcing solutions are you looking for?</h2>
+              <h3>Which outsourcing solutions are you looking for?</h3>
               <p>Choose as many as you need.</p>
             </div>
-            <a href="/#">
+            <a className="orange-button" href="/#">
               Get Started{' '}
-              <span>
+              <span className="circle-in-btn">
                 <BiRightArrowAlt className={styles.arrowRight} />
               </span>
             </a>
@@ -79,7 +81,7 @@ export default function App() {
           </div>
           {/* =============== COMPANY LOGOS SECTION =============== */}
           <div className={styles.companiesSection}>
-            <h2>Championing from behind the scenes of 200+ companies.</h2>
+            <h3>Championing from behind the scenes of 200+ companies.</h3>
             <div>
               <img
                 src="https://assets.website-files.com/64149f79022d0c5fc8ce46e8/64149f79022d0c5debce483c_Customer%20Logo__Flexport.svg"
@@ -142,7 +144,7 @@ export default function App() {
         <section className={styles.servicesSection}>
           <div className={styles.servicesTitle}>
             <div>
-              <h2>Don’t grow it alone</h2>
+              <h2>Don't grow it alone</h2>
               <p>
                 Don't let headcount become a headache. We’ll connect you with
                 talent that meets your needs.
@@ -355,12 +357,12 @@ export default function App() {
               languages—which means longer reach, constant uptime, and happier
               customers.
             </p>
-            <p className={styles.spanningBold}>
-              It's time to go international. No passport required.
-            </p>
-            <a className={styles.spanningBtn} href="/#">
-              Get Started
-            </a>
+            <span>It's time to go international. No passport required.</span>
+            <div>
+              <a className="green-button" href="/#">
+                Get Started
+              </a>
+            </div>
           </div>
           <div className={styles.spanningImages}>
             <div className={styles.spanningImage6}>
@@ -408,7 +410,7 @@ export default function App() {
         {/* =============== 5 STEPS SECTION =============== */}
         <section className={styles.superpowerSection}>
           <div className={styles.superpowerTitle}>
-            <h2 className={styles.h2Title}>Your talent-finding superpower</h2>
+            <h2>Your talent-finding superpower</h2>
             <p>
               We'll tailor our approach and services based on your roadblocks
               and needs.
@@ -452,7 +454,7 @@ export default function App() {
                 </p>
               </div>
             </div>
-            <a className={styles.viewMoreBtn} href="/#">
+            <a className="green-button" href="/#">
               View Details
             </a>
           </div>
@@ -460,7 +462,7 @@ export default function App() {
         {/* =============== OUR STORY SECTION =============== */}
         <section className={styles.storySection}>
           <div className={styles.storyTextBox}>
-            <h2 className={styles.h2Title}>
+            <h2>
               Our people are <span>people</span> people
             </h2>
             <h6>
@@ -473,7 +475,9 @@ export default function App() {
               time zones, languages, and skill sets. And you'll soon discover
               that with us, work isn't transactional—it is our passion.
             </p>
-            <a href="/#">Read our story</a>
+            <a className="green-button" href="/#">
+              Read our story
+            </a>
           </div>
 
           <div className={styles.storyImageBox}>
@@ -544,7 +548,9 @@ export default function App() {
               celebrates your wins, and gives you the opportunity to work with
               the most interesting clients? Check out our openings today.
             </p>
-            <a href="/#">View open roles</a>
+            <a className="green-button" href="/#">
+              View open roles
+            </a>
           </div>
         </section>
         {/* =============== SQUIGGLY BORDER SECTION =============== */}
@@ -557,14 +563,14 @@ export default function App() {
         {/* ================== CTA SECTION ================== */}
         <section className={styles.ctaSection}>
           <div className={styles.ctaTextBox}>
-            <h2 className={styles.h2Title}>Start building your dream team</h2>
+            <h2>Start building your dream team</h2>
             <p>
               Design a custom outsourcing solution that enables you to enjoy
               ease and ultimate peace of mind. We've got you.
             </p>
-            <a href="/#">
+            <a className="orange-button" href="/#">
               Get Started
-              <span>
+              <span className="circle-in-btn">
                 <BiRightArrowAlt className={styles.arrowRight} />
               </span>
             </a>

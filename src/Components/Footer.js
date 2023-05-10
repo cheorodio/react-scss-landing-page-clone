@@ -84,9 +84,9 @@ export default function Footer() {
           </ul>
         </div>
         <div className={styles.footerBtn}>
-          <a href="/#">
+          <a className="orange-button" href="/#">
             Get Started
-            <span>
+            <span className="circle-in-btn">
               <BiRightArrowAlt className={styles.arrowRight} />
             </span>
           </a>

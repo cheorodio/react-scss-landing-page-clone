@@ -1,3 +1,4 @@
+import '../index';
 import { BiChevronDown } from 'react-icons/bi';
 import styles from '../App.module.scss';
 
@@ -33,7 +34,7 @@ export default function NavBar() {
           </li>
         </ul>
         <div className={styles.rightSection}>
-          <a className={styles.ctaButton} href="/#">
+          <a className="green-button" href="/#">
             Get Started
           </a>
         </div>
@@ -41,4 +42,3 @@ export default function NavBar() {
     </>
   );
 }
-

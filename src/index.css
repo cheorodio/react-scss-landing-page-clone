@@ -21,11 +21,11 @@
 }
 
 body {
-  width: 100vw;
   font-family: 'Poppins', sans-serif;
-  background-color: var(--main-bg-color);
   color: var(--main-text-color);
 }
+
+/* ============REUSABLE CSS============ */
 
 a {
   text-decoration: none;
@@ -38,5 +38,53 @@ li {
 
 footer {
   background-color: var(--grey);
-  height: 75vh;
+}
+
+h2 {
+  font-family: var(--title-font);
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+
+/* Orange CTA buttons */
+.orange-button {
+  background-color: var(--coral);
+  color: #fff;
+  padding: 8px 8px 8px 20px;
+  border-radius: 30px;
+  font-family: var(--title-font);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  font-size: 1.25rem;
+}
+
+.orange-button:hover {
+  background-color: var(--main-text-color);
+}
+
+.circle-in-btn {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Green CTA buttons */
+.green-button {
+  padding: 16px 28px;
+  border-radius: 30px;
+  background-color: #163828;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.green-button:hover {
+  background-color: transparent;
+  border: 1px solid #163828;
+  color: #163828;
 }
