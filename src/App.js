@@ -428,26 +428,36 @@ export default function App() {
             </div>
             <div className={styles.numberBlocks}>
               <div>
-                <h6>1</h6>
+                <div className={styles.lineAfterCircle}>
+                  <h6>1</h6>
+                </div>
                 <p>Deep dive with us into your goals and hiring needs.</p>
               </div>
-              <div>
-                <h6>2</h6>
+              <div className={styles.lineAfterCircle}>
+                <div className={styles.lineAfterCircle}>
+                  <h6>2</h6>
+                </div>
                 <p>
                   Access a private portal with hand-picked talent to browse and
                   shortlist candidates.
                 </p>
               </div>
               <div>
-                <h6>3</h6>
+                <div className={styles.lineAfterCircle}>
+                  <h6>3</h6>
+                </div>
                 <p>Start interviewing.</p>
               </div>
               <div>
-                <h6>4</h6>
+                <div className={styles.lineAfterCircle}>
+                  <h6>4</h6>
+                </div>
                 <p>Refine your list until you have the right team.</p>
               </div>
               <div>
-                <h6>5</h6>
+                <div>
+                  <h6>5</h6>
+                </div>
                 <p>
                   With us beside you, welcome your new team aboard and prepare
                   for scale!

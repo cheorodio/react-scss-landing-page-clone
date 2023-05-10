@@ -218,8 +218,7 @@
 // //////////////////////////////////////////
 .highlightSection {
   background-color: var(--snow);
-  display: grid;
-  grid-template-columns: 0.75fr 1.25fr;
+  display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 168px 108px 64px;
@@ -630,8 +629,36 @@
     display: flex;
     align-items: center;
     justify-content: start;
-    gap: 40px;
+    gap: 30px;
     font-size: 1.1rem;
+    width: 100%;
+
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background-color: #fff;
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      position: relative;
+
+      h6 {
+        font-size: 1rem;
+        width: 80px;
+        height: 25px;
+      }
+    }
+
+    .lineAfterCircle::after {
+      content: '';
+      height: 38px;
+      width: 2px;
+      background-color: #fff;
+      position: absolute;
+      bottom: -69%;
+    }
   }
 }
 
