@@ -42,6 +42,10 @@ export default function App() {
           </div>
         </nav>
       </header>
+
+      {/* ===================================================== */}
+      {/* MAIN */}
+      {/* ===================================================== */}
       <main>
         <hero className={styles.heroSection}>
           <h1>
@@ -183,8 +187,7 @@ export default function App() {
               alt="illustration of a vase with leaves"
             />
           </div>
-
-          {/* ================================================== */}
+          {/* ===================================================== */}
           <div className={styles.servicesProducts}>
             <a href="/#">
               <img
@@ -279,10 +282,186 @@ export default function App() {
             </a>
           </div>
         </section>
+        {/* ===================================================== */}
+        <section className={styles.testimonialsSection}>
+          <div />
+        </section>
+
+        <div className={styles.borderGrey}>
+          <img
+            className={styles.borderGreyImage}
+            src="https://assets.website-files.com/64149f79022d0c5fc8ce46e8/64149f79022d0c7976ce4795_Section%20Curve%2002.svg"
+            alt="border"
+          />
+        </div>
+
+        {/* ===================================================== */}
+        <section className={styles.spanningSection}>
+          <img
+            className={styles.spanningBgImg}
+            src="https://assets.website-files.com/64149f79022d0c5fc8ce46e8/64149f79022d0c0fc8ce4798_Globe%20Lines.svg"
+            alt="circles"
+          />
+
+          <div className={styles.spanningImages}>
+            <div className={styles.spanningImage1}>
+              <img
+                src="https://assets.website-files.com/64149f79022d0c5fc8ce46e8/64149f79022d0c9aa1ce47b2_Avatar__07.webp"
+                alt="profile avatar 1"
+              />
+              <img
+                src="https://assets.website-files.com/64149f79022d0c5fc8ce46e8/64149f79022d0cafddce47aa_Avatar%20Circle__08.svg"
+                alt=" red circle"
+              />
+            </div>
+            <div className={styles.spanningImage2}>
+              <img
+                src="https://assets.website-files.com/64149f79022d0c5fc8ce46e8/64149f79022d0c799cce47ab_Avatar__05.webp"
+                alt="profile avatar 2"
+              />
+              <img
+                src="https://assets.website-files.com/64149f79022d0c5fc8ce46e8/64149f79022d0c7314ce479f_Avatar%20Circle__07.svg"
+                alt="red circle"
+              />
+            </div>
+            <div className={styles.spanningImage3}>
+              <img
+                src="https://assets.website-files.com/64149f79022d0c5fc8ce46e8/64149f79022d0cc7dece47ad_Avatar__04.webp"
+                alt="profile avatar"
+              />
+              <img
+                src="https://assets.website-files.com/64149f79022d0c5fc8ce46e8/64149f79022d0c31bace479d_Avatar%20Circle__06.svg"
+                alt="red circle"
+              />
+            </div>
+            <div className={styles.spanningImage4}>
+              <img
+                src="https://assets.website-files.com/64149f79022d0c5fc8ce46e8/64149f79022d0c87d2ce47ac_Avatar__03.webp"
+                alt="profile avatar"
+              />
+              <img
+                src="https://assets.website-files.com/64149f79022d0c5fc8ce46e8/64149f79022d0c8974ce479e_Avatar%20Circle__05.svg"
+                alt="red circle"
+              />
+            </div>
+          </div>
+
+          <div className={styles.spanningInfo}>
+            <h2>Spanning a wider world of talent</h2>
+            <p>
+              What are the odds that the most qualified people in the world live
+              in your zip code? We'll help you see further.
+            </p>
+            <p>
+              A global team extends your presence across time zones and
+              languages—which means longer reach, constant uptime, and happier
+              customers.
+            </p>
+            <p className={styles.spanningBold}>
+              It's time to go international. No passport required.
+            </p>
+            <a className={styles.spanningBtn} href="/#">
+              Get Started
+            </a>
+          </div>
+
+          <div className={styles.spanningImages}>
+            <div className={styles.spanningImage6}>
+              <img
+                src="https://assets.website-files.com/64149f79022d0c5fc8ce46e8/64149f79022d0c188ece47af_Avatar__06.webp"
+                alt="profile avatar 1"
+              />
+              <img
+                src="https://assets.website-files.com/64149f79022d0c5fc8ce46e8/64149f79022d0c3996ce4799_Avatar%20Circle__04.svg"
+                alt=" red circle"
+              />
+            </div>
+            <div className={styles.spanningImage7}>
+              <img
+                src="https://assets.website-files.com/64149f79022d0c5fc8ce46e8/64149f79022d0c6221ce47b1_Avatar__08.webp"
+                alt="profile avatar 2"
+              />
+              <img
+                src="https://assets.website-files.com/64149f79022d0c5fc8ce46e8/64149f79022d0cc79bce479a_Avatar%20Circle__03.svg"
+                alt="red circle"
+              />
+            </div>
+            <div className={styles.spanningImage8}>
+              <img
+                src="https://assets.website-files.com/64149f79022d0c5fc8ce46e8/64149f79022d0c514bce47ae_Avatar__01.webp"
+                alt="profile avatar"
+              />
+              <img
+                src="https://assets.website-files.com/64149f79022d0c5fc8ce46e8/64149f79022d0c88dfce479b_Avatar%20Circle__02.svg"
+                alt="red circle"
+              />
+            </div>
+            <div className={styles.spanningImage9}>
+              <img
+                src="https://assets.website-files.com/64149f79022d0c5fc8ce46e8/64149f79022d0c4f55ce47b0_Avatar__02.webp"
+                alt="profile avatar"
+              />
+              <img
+                src="https://assets.website-files.com/64149f79022d0c5fc8ce46e8/64149f79022d0c27d1ce479c_Avatar%20Circle__01.svg"
+                alt="red circle"
+              />
+            </div>
+          </div>
+        </section>
+        {/* ===================================================== */}
+        <section className={styles.superpowerSection}>
+          <div className={styles.superpowerTitle}>
+            <h2 className={styles.h2Title}>Your talent-finding superpower</h2>
+            <p>
+              We'll tailor our approach and services based on your roadblocks
+              and needs.
+            </p>
+          </div>
+
+          <div className={styles.superpowerSteps}>
+            <h3>Get set up in 5 easy steps</h3>
+            <div className={styles.superpowerLinks}>
+              <a className={styles.superpowerLink1} href="/#">
+                Hand-pick your team
+              </a>
+              <a className={styles.superpowerLink2} href="/#">
+                Leave it to us
+              </a>
+            </div>
+            <div className={styles.numberBlocks}>
+              <div>
+                <h6>1</h6>
+                <p>Deep dive with us into your goals and hiring needs.</p>
+              </div>
+              <div>
+                <h6>2</h6>
+                <p>
+                  Access a private portal with hand-picked talent to browse and
+                  shortlist candidates.
+                </p>
+              </div>
+              <div>
+                <h6>3</h6>
+                <p>Start interviewing.</p>
+              </div>
+              <div>
+                <h6>4</h6>
+                <p>Refine your list until you have the right team.</p>
+              </div>
+              <div>
+                <h6>5</h6>
+                <p>
+                  With us beside you, welcome your new team aboard and prepare
+                  for scale!
+                </p>
+              </div>
+            </div>
+            <a className={styles.viewMoreBtn} href="/#">
+              View Details
+            </a>
+          </div>
+        </section>
       </main>
-      <footer>
-        <p>hi</p>
-      </footer>
     </>
   );
 }
