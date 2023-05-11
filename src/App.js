@@ -13,7 +13,8 @@ export default function App() {
 
       <main>
         {/* ==================== HERO SECTION ==================== */}
-        <hero className={styles.heroSection}>
+        <section className={styles.heroSection}>
+          {/* unnecessary div added to make the line below the hero title */}
           <div>
             <h1>
               A better way to <span>grow</span>
@@ -21,7 +22,7 @@ export default function App() {
             <p>Seamlessly scale your team </p>
             <p>and flourish with global outsourced talent.</p>
           </div>
-        </hero>
+        </section>
 
         {/* =============== OUTSOURCING SOLUTION SECTION =============== */}
         <section className={styles.solutionSection}>

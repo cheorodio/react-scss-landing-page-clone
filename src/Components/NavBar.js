@@ -9,6 +9,7 @@ export default function NavBar() {
         <span>Bolton Remote is now a part of SupportNinja!</span>
         <a href="/#">Read about the acquisition.</a>
       </div>
+
       <nav className={styles.navBar}>
         <a href="/#" className={styles.logo}>
           <img
@@ -20,6 +21,7 @@ export default function NavBar() {
             alt="company name"
           />
         </a>
+
         <ul>
           <li>
             <a href="/#">
@@ -33,6 +35,7 @@ export default function NavBar() {
             <a href="/#">Resources</a>
           </li>
         </ul>
+
         <div className={styles.rightSection}>
           <a className="green-button" href="/#">
             Get Started
