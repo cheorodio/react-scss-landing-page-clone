@@ -47,7 +47,7 @@
 .logo {
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
   gap: 10px;
   width: 25%;
 }
@@ -64,7 +64,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
   background-color: var(--main-bg-color);
   padding: 0px 108px;
 
@@ -231,7 +231,7 @@
   div {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
     justify-content: center;
     gap: 32px;
   }
@@ -277,7 +277,7 @@
 
   a {
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     gap: 32px;
     padding: 32px 0px 56px;
     border-top: 1px solid var(--grey);
@@ -343,7 +343,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
   padding: 48px 192px 0px;
 
   div {
@@ -436,7 +436,7 @@
     justify-content: end;
   }
   .buttonRight {
-    justify-content: start;
+    justify-content: flex-start;
   }
 }
 
@@ -487,12 +487,12 @@
 
   p {
     font-size: 1.1rem;
-    text-align: start;
+    text-align: flex-start;
     line-height: 1.75;
   }
 
   span {
-    align-items: start;
+    align-items: flex-start;
     font-weight: 600;
     font-size: 1.1rem;
   }
@@ -563,7 +563,7 @@
   padding: 136px 108px;
   background-color: var(--grey);
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   gap: 64px;
 }
 
@@ -622,13 +622,13 @@
 .numberBlocks {
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
   gap: 20px;
 
   div {
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: flex-start;
     gap: 30px;
     font-size: 1.1rem;
     width: 100%;
@@ -669,7 +669,7 @@
   padding: 108px;
   background-color: var(--snow);
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   justify-content: center;
   gap: 64px;
 }
