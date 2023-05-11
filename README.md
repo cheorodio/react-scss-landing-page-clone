@@ -21,4 +21,4 @@ I used React and SASS to develop this project
   - The page will reload when you make changes.
 
 ## Credits 📝
-This is the second React project that I did at [upLeveled](https://upleveled.io/) bootcamp as part of the Spring '23 cohort.
+This is the fourth React project that I did at [upLeveled](https://upleveled.io/) bootcamp as part of the Spring '23 cohort.
