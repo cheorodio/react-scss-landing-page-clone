@@ -4,7 +4,7 @@
 This is an upLeveled bootcamp project that challenged me to clone a Landing Page from [Landingfolio](https://www.landingfolio.com/) using React and CSS modules.
 
 ## Demo link 🔗
-Access my site at [Landing Page Clone](https://github.com/cheorodio/react-landing-page-clone/) <br/>
+Access my site at [Landing Page Clone](https://react-landing-page-clone-project.netlify.app/) <br/>
 Access the original site at [SupportNinja](https://www.supportninja.com/?ref=landingfolio)
 
 ## Screenshot 📷
