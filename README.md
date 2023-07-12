@@ -8,7 +8,7 @@ Access my site at [Landing Page Clone](https://react-landing-page-clone-project.
 Access the original site at [SupportNinja](https://www.supportninja.com/?ref=landingfolio)
 
 ## Screenshot 📷
-<img width="800" alt="Screenshot 2023-05-10 at 21 20 52" src="https://github.com/cheorodio/react-landing-page-clone/assets/121162907/a0760795-5c39-402f-ab99-8baffdc9ad66">
+<img width="800" alt="Screenshot of landing page clone project" src="https://github.com/cheorodio/react-landing-page-clone/assets/121162907/368fae5d-9958-41c1-9c04-653f4bd7ce56">
 
 ## Technologies ⚛️
 I used React and SASS to develop this project
